@@ -9,17 +9,17 @@ Comparison with other starters and advantages over them.
 ## Improvements over some frontend-only starters
 
 - Monorepo project with a backend package, which includes a demo Move contract with automated tests
-- A cli tool for easy project creation [create-sui-dapp](https://github.com/kkomelin/create-sui-dapp)
+- A cli tool for easy project creation [create-sui-dapp](https://github.com/suiware/create-sui-dapp)
 - Automatic backend->frontend integration (your frontend knows about your deployed package automatically)
-- Integrated [Local Sui Explorer](https://github.com/kkomelin/sui-explorer)
+- Integrated [Local Sui Explorer](https://github.com/suiware/sui-explorer)
 
 ## Improvements over the [official Sui e2e starter template](https://github.com/MystenLabs/sui/tree/main/sdk/create-dapp)
 
 - Separate project with contributor-friendly license (MIT) to easier use and contribute.
 - Monorepo architecture with pnpm workspaces.
 - VSCode plugin recommendations enabled.
-- infra: Created [Local Sui Explorer](https://github.com/kkomelin/sui-explorer) based on the discontinued project by MystenLabs and adapted it to our local needs.
-- infra: Created [Local Sui Explorer](https://github.com/kkomelin/sui-explorer) console management tool.
+- infra: Created [Local Sui Explorer](https://github.com/suiware/sui-explorer) based on the discontinued project by MystenLabs and adapted it to our local needs.
+- infra: Created [Local Sui Explorer](https://github.com/suiware/sui-explorer) console management tool.
 - frontend: Import alias "~~" to make the imports cleaner.
 - frontend: Cleaner main.tsx with reactRender() function.
 - frontend: SuiProvider to encapsulate all Sui-related providers.

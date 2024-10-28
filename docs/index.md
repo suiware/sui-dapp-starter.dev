@@ -19,7 +19,7 @@ or continue with this guide to create and run a new project locally.
 
 ### 2. Scaffold a new app
 
-**[Use Github template ->](https://github.com/new?template_name=sui-dapp-starter&template_owner=kkomelin&name=my-first-sui-dapp)**
+**[Use Github template ->](https://github.com/new?template_name=sui-dapp-starter&template_owner=suiware&name=my-sui-dapp)**
 
 or
 
@@ -78,4 +78,4 @@ import TabItem from '@theme/TabItem';
 pnpm start
 ```
 
-You can find all starter console commands in [package.json](https://github.com/kkomelin/sui-dapp-starter/blob/main/package.json)
+You can find all starter console commands in [package.json](https://github.com/suiware/sui-dapp-starter/blob/main/package.json)

@@ -4,8 +4,8 @@ sidebar_position: 4
 
 # Troubleshooting
 
-If you have any issue with the starter, first scan this page, then check our [issue queue](https://github.com/kkomelin/sui-dapp-starter/issues) for similar issues.
-If nothing found, please [create a new issue](https://github.com/kkomelin/sui-dapp-starter/issues/new) and/or ask for help on [Discord](https://discord.com/invite/HuDPpXz4Hx).
+If you have any issue with the starter, first scan this page, then check our [issue queue](https://github.com/suiware/sui-dapp-starter/issues) for similar issues.
+If nothing found, please [create a new issue](https://github.com/suiware/sui-dapp-starter/issues/new) and/or ask for help on [Discord](https://discord.com/invite/HuDPpXz4Hx).
 
 ## MacOS
 
@@ -34,4 +34,4 @@ localnet build
 
 ---
 
-Didn't find your issue? [Report it to us ->](https://github.com/kkomelin/sui-dapp-starter/issues/new)
+Didn't find your issue? [Report it to us ->](https://github.com/suiware/sui-dapp-starter/issues/new)

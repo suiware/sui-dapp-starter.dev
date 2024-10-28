@@ -8,7 +8,7 @@ import ButtonLink from '../components/ButtonLink'
 import HomepageFeatures from '../components/HomepageFeatures'
 import HomepageReviews from '../components/HomepageReviews'
 import HomepageVideo from '../components/HomepageVideo'
-import { DEMO_URL, SITE_TITLE } from '../constants/site'
+import { DEMO_FIREBASE_URL, SITE_TITLE } from '../constants/site'
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext()
@@ -31,7 +31,7 @@ function HomepageHeader() {
 
         <div className="flex flex-row items-center justify-center gap-4 pt-4">
           <ButtonLink
-            to={DEMO_URL}
+            to={DEMO_FIREBASE_URL}
             target="_blank"
             id="demo-button"
             data-umami-event="Demo button"
@@ -74,7 +74,7 @@ export default function Home(): JSX.Element {
         <div className="mb-6 mt-0 flex flex-col items-center justify-center">
           <iframe
             className="overflow-hidden border-none"
-            src="https://ghbtns.com/github-btn.html?user=kkomelin&repo=sui-dapp-starter&type=star&count=true&size=large"
+            src="https://ghbtns.com/github-btn.html?user=suiware&repo=sui-dapp-starter&type=star&count=true&size=large"
             width="140"
             height="30"
             title="Star on Github"

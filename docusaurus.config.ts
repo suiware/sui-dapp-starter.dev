@@ -3,8 +3,9 @@ import type { Config } from "@docusaurus/types";
 import { themes as prismThemes } from "prism-react-renderer";
 import tailwindPlugin from "./plugins/tailwind-plugin.cjs";
 import {
-  DEMO_URL,
-  DISCORD_INVITE_LINK,
+  DEMO_FIREBASE_URL,
+  DEMO_WALRUS_URL,
+  DISCORD_INVITE_URL,
   GITHUB_DOCS_PROJECT_NAME,
   GITHUB_DOCS_PROJECT_URL,
   GITHUB_DOCS_PROJECT_USER,
@@ -12,6 +13,8 @@ import {
   SITE_SLOGAN,
   SITE_TITLE,
   SITE_URL,
+  SUIWARE_SITE_URL,
+  X_LINK,
 } from './src/constants/site'
 
 const config: Config = {
@@ -128,7 +131,15 @@ const config: Config = {
           items: [
             {
               label: 'Discord',
-              href: DISCORD_INVITE_LINK,
+              href: DISCORD_INVITE_URL,
+            },
+            {
+              label: 'X/Twitter',
+              href: X_LINK,
+            },
+            {
+              label: 'SuiWare.io',
+              href: SUIWARE_SITE_URL,
             },
           ],
         },
@@ -140,8 +151,12 @@ const config: Config = {
               to: '/blog',
             },
             {
-              label: 'Demo',
-              to: DEMO_URL,
+              label: 'Demo (Firebase)',
+              to: DEMO_FIREBASE_URL,
+            },
+            {
+              label: 'Demo (Walrus)',
+              to: DEMO_WALRUS_URL,
             },
             {
               label: 'GitHub',
