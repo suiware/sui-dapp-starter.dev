@@ -2,7 +2,7 @@
 slug: new-github-organization
 title: New Github Organization
 authors: kkomelin
-tags: []
+tags: [opensource]
 ---
 
 Hey everyone!
