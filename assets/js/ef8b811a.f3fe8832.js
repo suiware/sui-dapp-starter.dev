@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksui_dapp_starter_dev=self.webpackChunksui_dapp_starter_dev||[]).push([[8947],{6600:e=>{e.exports=JSON.parse('{"authors":[{"name":"Kos Komelin","title":"Developer @ Suiware","url":"https://github.com/kkomelin","imageURL":"https://github.com/kkomelin.png","key":"kkomelin","page":null,"count":3}]}')}}]);

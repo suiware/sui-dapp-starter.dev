@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Sui dApp Starter Blog</title>
+        <link>https://sui-dapp-starter.dev/blog</link>
+        <description>Sui dApp Starter Blog</description>
+        <lastBuildDate>Mon, 28 Oct 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[New Github Organization]]></title>
+            <link>https://sui-dapp-starter.dev/blog/new-github-organization</link>
+            <guid>https://sui-dapp-starter.dev/blog/new-github-organization</guid>
+            <pubDate>Mon, 28 Oct 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hey everyone!]]></description>
+            <content:encoded><![CDATA[<p>Hey everyone!</p>
+<p>I've finally come up with a brand name for all my Sui-related activities.</p>
+<p>Meet <a href="https://github.com/suiware" target="_blank" rel="noopener noreferrer">Suiware</a>, a new Github organization that now hosts all my open-source projects related to Sui.</p>
+<p>I've also renamed the <a href="https://discord.com/invite/HuDPpXz4Hx" target="_blank" rel="noopener noreferrer">Discord server</a> and created an <a href="https://x.com/suiware_" target="_blank" rel="noopener noreferrer">X account</a> for the organization.
+The best way to support my open-source work now is to subscribe to these channels.</p>
+<p>Thank you!</p>]]></content:encoded>
+            <category>opensource</category>
+        </item>
+        <item>
+            <title><![CDATA[Sponsored bounties for ETHSofia Hackathon 2024]]></title>
+            <link>https://sui-dapp-starter.dev/blog/sponsored-ethsofia-hackathon-bounties</link>
+            <guid>https://sui-dapp-starter.dev/blog/sponsored-ethsofia-hackathon-bounties</guid>
+            <pubDate>Wed, 23 Oct 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[My team got to the finals of the Walrus Breaking the Ice hackathon, which meant we earned $500 bounty.]]></description>
+            <content:encoded><![CDATA[<p>My team got to the finals of the <a href="https://www.breakingtheice.xyz/" target="_blank" rel="noopener noreferrer">Walrus Breaking the Ice</a> hackathon, which meant we earned $500 bounty.
+I decided to spent my part on incentives for ETHSofia hackers who would build on Sui with Sui dApp Starter.</p>
+<p>Now when the hackathon is over, I'm happy to announce the winner of the Sui dApp Starter reward of 100 SUI...</p>
+<p>Meet <a href="https://github.com/aeither/DefyRent" target="_blank" rel="noopener noreferrer">DefyRent</a> - a Decentralized Rent Deposit Platform.</p>
+<p>Congratulations to the team and good luck with future advancement of the project!</p>]]></content:encoded>
+            <category>hackathon</category>
+            <category>sponsorship</category>
+        </item>
+        <item>
+            <title><![CDATA[Won the 1st prize at Sui Overflow Hackathon 2024]]></title>
+            <link>https://sui-dapp-starter.dev/blog/1st-prize-sui-overflow-hackathon</link>
+            <guid>https://sui-dapp-starter.dev/blog/1st-prize-sui-overflow-hackathon</guid>
+            <pubDate>Wed, 31 Jul 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[After a few months of active development and experimentation, Sui dApp Starter is among the winners of the Sui Overflow hackathon.]]></description>
+            <content:encoded><![CDATA[<p>After a few months of active development and experimentation, Sui dApp Starter is among the winners of the Sui Overflow hackathon.</p>
+<p>I'm happy to share the great news that Sui dApp Starter has won the 1st place in the Randomness category of <a target="_blank" rel="noopener noreferrer" href="https://blog.sui.io/2024-sui-overflow-hackathon-winners">Sui Overflow 2024</a>!</p>
+<p><img decoding="async" loading="lazy" alt="sui-overflow-hackathon-win-nft" src="https://sui-dapp-starter.dev/assets/images/sui-overflow-hackathon-win-nft-d4e13bc81c6c4e4c3630b5557145bb03.png" width="200" height="200" class="img_BZua"></p>
+<p>Now it's time to celebrate by <a href="https://demo.sui-dapp-starter.dev/" target="_blank" rel="noopener noreferrer">minting</a> your own random Sui dApp Starter Greeting NFT!</p>
+<p>We still have a long road of improvements and new features ahead of us, so stay tuned!</p>]]></content:encoded>
+            <category>hackathon</category>
+        </item>
+    </channel>
+</rss>
