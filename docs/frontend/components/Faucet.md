@@ -2,13 +2,13 @@
 sidebar_position: 2
 ---
 
-# Faucet
-
 :::tip
 
 If you're here just for a **devnet** or **testnet** faucet for Sui, join [Sui Discord](https://discord.gg/sui) and use the `#devnet-faucet` or `#testnet-faucet` channels accordingly to fund your address.
 
 :::
+
+# Faucet
 
 The `Faucet` component renders a button that lets user fund their current address on the currently selected test network.
 
