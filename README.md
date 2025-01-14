@@ -1,4 +1,4 @@
-# Sui dApp Starter Site
+# Sui dApp Starter: Site
 
 This website is built using [Docusaurus](https://docusaurus.io/).
 

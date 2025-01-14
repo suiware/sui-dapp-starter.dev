@@ -15,7 +15,7 @@ import {
   SITE_URL,
   SUIWARE_SITE_URL,
   X_LINK,
-} from './src/constants/site'
+} from './src/constants/site';
 
 const config: Config = {
   title: SITE_TITLE,
@@ -252,7 +252,30 @@ const config: Config = {
       'data-website-id': '80fb4309-441e-4f26-b820-5af1014a4d18',
     },
   ],
-  plugins: [tailwindPlugin],
+  plugins: [
+    tailwindPlugin,
+    [
+      "docusaurus-plugin-remote-content",
+      {
+          name: "kit-docs", // used by CLI, must be path safe
+          sourceBaseUrl: "https://raw.githubusercontent.com/suiware/kit/refs/heads/main/packages/kit/docs/", // the base url for the markdown (gets prepended to all of the documents when fetching)
+          outDir: "docs/frontend/kit", // the base directory to output to.
+          documents: [
+            "AddressInput.md",
+            "AmountInput.md",
+            "Balance.md",
+            "Faucet.md",
+            "NetworkType.md",
+            "SuiProvider.md",
+            "useBalance.md",
+            "useFaucet.md",
+            "useNetworkType.md",
+            "useTransact.md",
+          ], // the file names to download,
+          performCleanup: false
+      },
+    ],
+  ],
   themes: [
     [
       require.resolve('@easyops-cn/docusaurus-search-local'),
