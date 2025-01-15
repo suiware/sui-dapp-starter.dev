@@ -255,24 +255,65 @@ const config: Config = {
   plugins: [
     tailwindPlugin,
     [
-      "docusaurus-plugin-remote-content",
+      'docusaurus-plugin-remote-content',
       {
-          name: "kit-docs", // used by CLI, must be path safe
-          sourceBaseUrl: "https://raw.githubusercontent.com/suiware/kit/refs/heads/main/packages/kit/docs/", // the base url for the markdown (gets prepended to all of the documents when fetching)
-          outDir: "docs/frontend/kit", // the base directory to output to.
-          documents: [
-            "AddressInput.md",
-            "AmountInput.md",
-            "Balance.md",
-            "Faucet.md",
-            "NetworkType.md",
-            "SuiProvider.md",
-            "useBalance.md",
-            "useFaucet.md",
-            "useNetworkType.md",
-            "useTransact.md",
-          ], // the file names to download,
-          performCleanup: false
+        name: 'kit-docs', // used by CLI, must be path safe
+        sourceBaseUrl:
+          'https://raw.githubusercontent.com/suiware/kit/refs/heads/main/packages/kit/docs/', // the base url for the markdown (gets prepended to all of the documents when fetching)
+        outDir: 'docs/frontend/kit', // the base directory to output to.
+        documents: [
+          'AddressInput.md',
+          'AmountInput.md',
+          'Balance.md',
+          'Faucet.md',
+          'NetworkType.md',
+          'SuiProvider.md',
+          'useBalance.md',
+          'useFaucet.md',
+          'useNetworkType.md',
+          'useTransact.md',
+        ], // the file names to download,
+        performCleanup: false,
+      },
+    ],
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            from: '/docs/frontend/components/Balance/',
+            to: '/docs/frontend/kit/Balance',
+          },
+          {
+            from: '/docs/frontend/components/Faucet/',
+            to: '/docs/frontend/kit/Faucet/',
+          },
+          {
+            from: '/docs/frontend/components/NetworkType/',
+            to: '/docs/frontend/kit/NetworkType/',
+          },
+          {
+            from: '/docs/frontend/hooks/useBalance/',
+            to: '/docs/frontend/kit/useBalance/',
+          },
+          {
+            from: '/docs/frontend/hooks/useFaucet/',
+            to: '/docs/frontend/kit/useFaucet/',
+          },
+          {
+            from: '/docs/frontend/hooks/useSynchronizedNetworkType/',
+            to: '/docs/frontend/kit/useNetworkType/',
+          },
+          {
+            from: '/docs/frontend/hooks/useTransact/',
+            to: '/docs/frontend/kit/useTransact/',
+          },
+          // Redirect from multiple old paths to one new path.
+          {
+            from: ['/docs/frontend/components/', '/docs/frontend/hooks/'],
+            to: '/docs/frontend/kit/',
+          },
+        ],
       },
     ],
   ],
