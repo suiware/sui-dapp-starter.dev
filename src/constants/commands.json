@@ -14,6 +14,8 @@
   "frontend:deploy:firebase": "deploy to Firebase",
   "frontend:deploy:walrus": "deploy to Walrus Sites",
   "frontend:deploy:arweave": "deploy to Arweave",
+  "frontend:init:react": "initialize a React frontend (one time only)",
+  "frontend:init:nextjs": "initialize a Next.js frontend (one time only)",
   "backend:build": "build backend",
   "backend:test": "test backend",
   "localnet:start": "start localnet && pnpm localnet:explorer:start",

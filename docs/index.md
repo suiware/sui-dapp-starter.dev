@@ -11,29 +11,48 @@ Here you can find a step-by-step guide on how to get up and running with Sui dAp
 If you want to try Sui dApp Starter right away, check out **[our demo](https://demo.sui-dapp-starter.dev/)**, 
 or continue with this guide to create and run a new project locally.
 
-### 1. Install system requirements
+## 1. Install system requirements
 
 - [Suibase](https://suibase.io/how-to/install.html)
 - [Node (>= 20)](https://nodejs.org/en/download/)
 - [pnpm (>= 9)](https://pnpm.io/installation)
 
-### 2. Scaffold a new app
+## 2. Scaffold a new app
 
-**[Use Github template ->](https://github.com/new?template_name=sui-dapp-starter&template_owner=suiware&name=my-sui-dapp)**
+### Option 1. Use the Github template
 
-or
+1. [Create a new project from the template](https://github.com/new?template_name=sui-dapp-starter&template_owner=suiware&name=my-sui-dapp).
+
+2. Clone the resulting repo locally.
+
+3. Choose the frontend framework:
+
+For React:
+```bash
+pnpm frontend:init:react
+```
+
+For Next.js:
+
+```bash
+pnpm frontend:init:nextjs
+```
+
+### Option 2. Use CLI
 
 ```bash
 pnpm create sui-dapp@latest
 ```
 
-### 3. Install project dependencies
+This way you'll be able to configure the project step-by-step.
+
+## 3. Install project dependencies
 
 ```bash
 pnpm install
 ```
 
-### 4. Run the local Sui network
+## 4. Run the local Sui network
 
 ```bash
 pnpm localnet:start
@@ -41,17 +60,17 @@ pnpm localnet:start
 
 Local Sui Explorer will be available on [localhost:9001](http://localhost:9001/)
 
-### 5. Deploy the demo package to the local network
+## 5. Deploy the demo package to the local network
 
 ```bash
 pnpm localnet:deploy
 ```
 
-### 6. Switch your wallet to the local network 
+## 6. Switch your wallet to the local network 
 
 Go to your browser wallet settings and find the Network setting, where choose Local.
 
-### 7. Fund your local network account/address
+## 7. Fund your local network account/address
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -72,7 +91,7 @@ import TabItem from '@theme/TabItem';
   </TabItem>
 </Tabs>
 
-### 8. Run the app
+## 8. Run the app
 
 ```bash
 pnpm start
