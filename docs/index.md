@@ -33,7 +33,7 @@ or continue with this guide to create and run a new project locally.
 | Greeting (Next.js) | `pnpm init:template:greeting-next` |
 | Counter (React) | `pnpm init:template:counter-react` |
 
-[Template Guide](https://sui-dapp-starter.dev/docs/templates).
+[Template Guide](https://sui-dapp-starter.dev/docs/templates)
 
 ### Option 2. Use CLI
 
