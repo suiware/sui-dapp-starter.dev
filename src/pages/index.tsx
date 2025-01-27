@@ -67,7 +67,7 @@ export default function Home(): React.ReactElement {
     >
       <HomepageHeader />
       <main className="mb-16">
-        <HomepageVideo />
+        {/* <HomepageVideo /> */}
         <HomepageFeatures />
         <HomepageReviews />
 
