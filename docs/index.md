@@ -33,7 +33,7 @@ or continue with this guide to create and run a new project locally.
 | Greeting (Next.js) | `pnpm init:template:greeting-next` |
 | Counter (React) | `pnpm init:template:counter-react` |
 
-[Template Guide](https://sui-dapp-starter.dev/docs/templates)
+[Template Guide](/docs/templates)
 
 ### Option 2. Use CLI
 
@@ -41,7 +41,7 @@ or continue with this guide to create and run a new project locally.
 pnpm create sui-dapp@latest
 ```
 
-This way you'll be able to [choose a template](https://sui-dapp-starter.dev/docs/templates) and configure the project step-by-step.
+This way you'll be able to choose a [template](/docs/templates) and configure the project step-by-step.
 
 ## 3. Install project dependencies
 
