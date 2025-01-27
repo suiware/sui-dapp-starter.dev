@@ -1,7 +1,7 @@
 import { LoaderCircleIcon } from 'lucide-react'
 import { useState } from 'react'
 
-export default function HomepageVideo(): JSX.Element {
+export default function HomepageVideo(): React.ReactElement {
   const [loading, setLoading] = useState(true)
 
   return (

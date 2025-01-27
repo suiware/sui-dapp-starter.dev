@@ -60,7 +60,7 @@ function Review({ name, description }: IReview) {
   )
 }
 
-export default function HomepageReviews(): JSX.Element {
+export default function HomepageReviews(): React.ReactElement {
   return (
     <section className="mx-auto mb-16 mt-6 flex w-full max-w-6xl flex-col gap-10 p-8">
       <h2 className="text-center text-3xl">What People Think</h2>

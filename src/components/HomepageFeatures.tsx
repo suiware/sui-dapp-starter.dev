@@ -96,7 +96,7 @@ function Feature({ title, description }: IFeature) {
   )
 }
 
-export default function HomepageFeatures(): JSX.Element {
+export default function HomepageFeatures(): React.ReactElement {
   return (
     <section className="mx-auto mb-4 mt-8 flex w-full max-w-6xl flex-col gap-10 p-8 sm:mb-12">
       <h2 className="text-center text-3xl">Why It's Different</h2>
