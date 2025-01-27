@@ -40,8 +40,8 @@ const features: IFeature[] = [
     title: 'Decentralized',
     description: (
       <>
-        Client-side React as a foundation for the frontend part lets you{' '}
-        <b>host it in a decentralized manner</b>.
+        Client-side React or Next.js as a foundation for the frontend part lets
+        you <b>host it in a decentralized manner</b>.
       </>
     ),
   },
@@ -49,8 +49,12 @@ const features: IFeature[] = [
     title: 'Local Block Explorer',
     description: (
       <>
-        Sui dApp Starter seamlessly integrates with Local Sui Explorer, which{' '}
-        lets you <b>check your local transaction data</b> during development.
+        Seamlessly integrates with{' '}
+        <a href="https://www.npmjs.com/package/sui-explorer-local">
+          Local Sui Explorer
+        </a>
+        , which lets you <b>check your local transaction data</b> during
+        development.
       </>
     ),
   },
@@ -58,8 +62,9 @@ const features: IFeature[] = [
     title: 'Sui Components',
     description: (
       <>
-        The <b>NetworkType, Balance, Faucet and other components</b> are
-        included so you don't have to reinvent the wheel.
+        With <a href="/docs/frontend/kit">@suiware/kit</a> included, you get{' '}
+        <b>NetworkType, Balance, Faucet and other components</b> out of the box,
+        so you don't have to reinvent the wheel.
       </>
     ),
   },
@@ -67,21 +72,24 @@ const features: IFeature[] = [
     title: 'Sui Hooks',
     description: (
       <>
-        The <b>useNetworkType, useBalance, useFaucet, useTransact</b> hooks
-        encapsulate routine tasks, allowing you to develop quicker.
+        The <b>useNetworkType, useBalance, useFaucet, useTransact</b> hooks from
+        <a href="/docs/frontend/kit">@suiware/kit</a> encapsulate routine tasks,
+        allowing you to develop quicker.
       </>
     ),
   },
   {
-    title: 'Learn by Example',
+    title: 'Templates',
     description: (
       <>
-        The starter includes an{' '}
-        <b>
-          example Move package, utilizing on-chain randomness, with a frontend
-          client for it
-        </b>
-        , so you have a solid platform to jump from.
+        <ul>
+          <li>Greeting (React)</li>
+          <li>Greeting (Next.js)</li>
+          <li>Counter (React)</li>
+        </ul>
+        <div>
+          Every template includes a Move contract and a frontend. <a href="/docs/templates">Learn more</a>
+        </div>
       </>
     ),
   },

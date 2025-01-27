@@ -8,7 +8,7 @@ sidebar_position: 1
 
 Here you can find a step-by-step guide on how to get up and running with Sui dApp Starter locally.
 
-If you want to try Sui dApp Starter right away, check out **[our demo](https://demo.sui-dapp-starter.dev/)**, 
+If you want to try Sui dApp Starter right away, check out **[our demo](https://demo.sui-dapp-starter.dev/)** (default Greeting (React) template), 
 or continue with this guide to create and run a new project locally.
 
 ## 1. Install system requirements
@@ -27,11 +27,13 @@ or continue with this guide to create and run a new project locally.
 
 3. Choose a template by running the corresponding init command:
 
-| Template | Init command | Description |
-| --- | --- | --- |
-| Greeting (React) | `pnpm init:template:greeting-react` | A **default template** with a Move contract which utilizes Sui Object Display (NFT) and native Sui Randomness. Frontend is built with React, SWC, Vite, Tailwind. |
-| Greeting (Next.js) | `pnpm init:template:greeting-next` | The Move part is the same as in Greetings (React), but the frontend is built with Next.js. |
-| Counter (React) | `pnpm init:template:counter-react` | A lightweight template with a simple Move counter contract and a React frontend. |
+| Template | Init command |
+| --- | --- |
+| Greeting (React) | `pnpm init:template:greeting-react` |
+| Greeting (Next.js) | `pnpm init:template:greeting-next` |
+| Counter (React) | `pnpm init:template:counter-react` |
+
+[Template Guide](https://sui-dapp-starter.dev/docs/templates).
 
 ### Option 2. Use CLI
 
@@ -39,7 +41,7 @@ or continue with this guide to create and run a new project locally.
 pnpm create sui-dapp@latest
 ```
 
-This way you'll be able to configure the project step-by-step.
+This way you'll be able to [choose a template](https://sui-dapp-starter.dev/docs/templates) and configure the project step-by-step.
 
 ## 3. Install project dependencies
 

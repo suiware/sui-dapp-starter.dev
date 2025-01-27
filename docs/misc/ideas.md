@@ -4,11 +4,5 @@ sidebar_position: 3
 
 # Improvement Ideas
 
-Ideas on how to make Sui dApp Starter better. Sort of a roadmap without delivery dates.
-
-- [ ] docs: Write/record how-to guides
-- [ ] frontend: Develop better Sui Kit, Tailwind and Radix theme integration
-- [ ] infra: Enable Husky and lint-staged for pre-commit
-- [ ] backend: Find a way to lint and format the backend contracts
-- [ ] backend: Github Actions for linting and testing the contracts
-- [ ] [YOUR FEATURE](https://github.com/suiware/sui-dapp-starter/issues/new)
+If you have an idea on how to make Sui dApp Starter better, 
+[let us know on Github](https://github.com/suiware/sui-dapp-starter/issues/new) in any form you prefer (video, audio, text).
