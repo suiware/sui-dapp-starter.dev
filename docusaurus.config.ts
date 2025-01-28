@@ -94,7 +94,7 @@ const config: Config = {
           position: 'left',
           label: 'Docs',
         },
-        { to: '/blog', label: 'Blog', position: 'left' },
+        // { to: '/blog', label: 'Blog', position: 'left' },
         {
           href: GITHUB_STARTER_PROJECT_URL,
           label: 'GitHub',
@@ -121,8 +121,8 @@ const config: Config = {
               to: '/docs/category/frontend',
             },
             {
-              label: 'Miscellaneous',
-              to: '/docs/category/miscellaneous',
+              label: 'Templates',
+              to: '/docs/templates',
             },
           ],
         },
@@ -138,18 +138,22 @@ const config: Config = {
               href: X_LINK,
             },
             {
-              label: 'SuiWare.io',
+              label: 'Suiware.io',
               href: SUIWARE_SITE_URL,
+            },
+            {
+              label: 'Suiware Blog',
+              to: 'https://suiware.io/posts',
             },
           ],
         },
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
+            // {
+            //   label: 'Blog',
+            //   to: '/blog',
+            // },
             {
               label: 'Demo (Firebase)',
               to: DEMO_FIREBASE_URL,
@@ -162,6 +166,7 @@ const config: Config = {
               label: 'GitHub',
               href: GITHUB_STARTER_PROJECT_URL,
             },
+            
           ],
         },
       ],
