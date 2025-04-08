@@ -60,6 +60,4 @@ Thanks to Suibase tools, everything is already configured.
 
 * [suiware/walrus-sites-deploy](https://github.com/suiware/walrus-sites-deploy)
 * [Suibase Walrus docs](https://suibase.io/walrus.html)
-* [Walrus setup guide](https://mystenlabs.github.io/walrus-docs/usage/setup.html)
-* [Installing the Walrus site builder](https://mystenlabs.github.io/walrus-docs/walrus-sites/tutorial-install.html)
-* [Publishing a Walrus Site](https://mystenlabs.github.io/walrus-docs/walrus-sites/tutorial-publish.html)
+* [Walrus Sites docs](https://docs.wal.app/walrus-sites/intro.html)
