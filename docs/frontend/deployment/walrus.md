@@ -17,7 +17,7 @@ testnet start
 mainnet start
 ```
 
-### 2. Top up the deployment address
+### 2. Top up deployer address
 
 To get current deployer address:
 
