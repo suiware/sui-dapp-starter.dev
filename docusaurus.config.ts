@@ -158,10 +158,10 @@ const config: Config = {
               label: 'Demo (Firebase)',
               to: DEMO_FIREBASE_URL,
             },
-            {
-              label: 'Demo (Walrus)',
-              to: DEMO_WALRUS_URL,
-            },
+            // {
+            //   label: 'Demo (Walrus)',
+            //   to: DEMO_WALRUS_URL,
+            // },
             {
               label: 'GitHub',
               href: GITHUB_STARTER_PROJECT_URL,
