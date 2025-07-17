@@ -315,7 +315,7 @@ const config: Config = {
           },
           // Redirect from multiple old paths to one new path.
           {
-            from: ['/docs/frontend/components/', '/docs/frontend/hooks/'],
+            from: ['/docs/frontend/components/', '/docs/frontend/hooks/', '/docs/category/components/'],
             to: '/docs/frontend/kit/',
           },
         ],
