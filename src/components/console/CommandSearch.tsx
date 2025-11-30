@@ -34,7 +34,7 @@ const CommandSearch: FC = () => {
       <div className="flex flex-col items-start justify-center">
         {foundCommands.map(({ name, desc }) => (
           <div
-            className="flex w-full flex-col border-b-0 border-l border-r border-t border-solid border-gray-400 px-2 py-1 last:!border-b sm:flex-row sm:items-center sm:gap-2"
+            className="flex w-full flex-col border-b-0 border-l border-r border-t border-solid border-gray-400 px-2 py-1 last:border-b! sm:flex-row sm:items-center sm:gap-2"
             key={name}
           >
             <div className="text-primary min-w-80 font-bold">{name}</div>

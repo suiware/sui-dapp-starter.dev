@@ -18,7 +18,7 @@ function HomepageHeader() {
         <img
           src="/img/logo.svg"
           alt={`${SITE_TITLE} Logo`}
-          className="mt-4 h-32 w-32"
+          className="my-4 h-32 w-32 mx-auto"
         />
 
         <Heading as="h1" className="hero__title">

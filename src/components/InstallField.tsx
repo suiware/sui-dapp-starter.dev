@@ -24,11 +24,11 @@ const InstallField = () => {
       <input
         type="text"
         readOnly={true}
-        className="rounded-lg border-none py-2 pl-4 pr-8 text-lg text-gray-600 outline-none dark:text-gray-100 w-[290px]"
+        className="rounded-lg border-none py-2 pl-4 pr-8 text-lg text-gray-600 outline-hidden dark:text-gray-100 w-[290px]"
         value={INSTALL_COMMAND}
       />
       <button
-        className="-ml-10 flex cursor-pointer flex-col items-center justify-center border-none bg-transparent p-2 outline-none "
+        className="-ml-10 flex cursor-pointer flex-col items-center justify-center border-none bg-transparent p-2 outline-hidden "
         onClick={handleCopyToClipboard}
       >
         <CopyIcon
